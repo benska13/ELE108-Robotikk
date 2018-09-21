@@ -1,0 +1,10 @@
+ if 0 < angle_ < maxTurnAngle:
+            car.left(angle_)
+        else:
+
+   if 0 > angle_ > - maxTurnAngle:
+            car.right(-angle_)
+        else:
+
+
+    print('Angle to point: ', angle_, ' Car a: ', car.heading(), ' Car to p: ', car.towards(point))
